@@ -1,3 +1,16 @@
 * { /* debug */
     border: 1px solid black;
 }
+
+#TopBar {
+    display: flex;
+}
+#TBarLeft {
+    display: flex;
+}
+#TBarCenter {
+    display: flex;
+}
+#TBarRight {
+    display: flex;
+}
