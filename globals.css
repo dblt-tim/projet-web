@@ -4,13 +4,19 @@
 
 #TopBar {
     display: flex;
-}
-#TBarLeft {
-    display: flex;
-}
-#TBarCenter {
-    display: flex;
-}
-#TBarRight {
-    display: flex;
+
+    #TBarLeft {
+        display: flex;
+    }
+    #TBarCenter {
+        display: flex;
+
+        h1 {
+            font-size: 1em;
+            padding: 0;
+        }
+    }
+    #TBarRight {
+        display: flex;
+    }
 }
