@@ -1,0 +1,12 @@
+
+bg : #29303d
+bg-dark: #1f242e
+bg-darker: #14181f
+
+info : #7ce467
+warn : #e4e467
+error : #e46767
+
+text: #e6e6e6
+text-dark: #cccccc
+text-darker: #999999

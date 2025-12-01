@@ -3,21 +3,31 @@
 }
 
 #TopBar {
-    display: flex;
+    ul {
+        position: sticky;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
 
-    #TBarLeft {
         display: flex;
     }
-    #TBarCenter {
-        display: flex;
 
-        h1 {
-            font-size: 1em;
-            padding: 0;
+    li {
+        text-align: center;
+        a {
+            display: block;
+
+            :hover {
+
+            }
+            .active {
+
+            }
         }
-    }
-    #TBarRight {
-        display: flex;
+        p {
+            display: block;
+        }
     }
 }
 
