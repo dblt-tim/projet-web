@@ -1,0 +1,14 @@
+
+
+main {
+    display: flex;
+
+    #posts {
+        width: 80%;
+        height: 100%;
+    }
+    #sideNav {
+        width: 20%;
+        height: 100%;
+    }
+}
