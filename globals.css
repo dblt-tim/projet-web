@@ -1,29 +1,39 @@
 * { /* debug */
     border: 1px solid black;
+
+    background-color: #14181f;
+    color: #e6e6e6;
 }
 
 #TopBar {
+    margin: 0;
+    padding: 0;
+    position: sticky;
     ul {
-        position: sticky;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
 
         display: flex;
+        text-align: center;
+        background-color: #14181f;
     }
 
     li {
-        text-align: center;
+        
         a {
             display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
 
-            :hover {
-
-            }
-            .active {
-
-            }
+        a:hover {
+            background-color: #1f242e;
+        }
+        a.active {
+            background-color: #29303d;
         }
         p {
             display: block;
