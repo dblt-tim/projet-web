@@ -1,4 +1,19 @@
+
 h2 {
     font-size: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+main {
+    display: flex;
+
+    #posts {
+        width: 80%;
+        height: 100%;
+    }
+    #sideNav {
+        width: 20%;
+        height: 100%;
+    }
 }
