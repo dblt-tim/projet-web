@@ -10,3 +10,7 @@ error : #e46767
 text: #e6e6e6
 text-dark: #cccccc
 text-darker: #888888
+
+primary : #144bb8
+secondary : #1481b8
+accent : #b87414
