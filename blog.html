@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,12 @@
         <nav id="TopBar">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li style="float:right"><p>Atelier K - Manufacture de Tôlerie</p></li>
+                <li><a href="blog.html" id="active">Blog</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                
+                <li><a>Atelier K - Manufacture de Tôlerie</a></li>
+
+                <li><a href="form.html">Contact</a></li>
             </ul>
         </nav>
 
@@ -22,32 +26,42 @@
             <section id="posts">
                 <h2>Restauration de voitures Karmann Ghia depuis 2012</h2>
                 <article>
-                    <h1>Titre</h1>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan neque eu nulla vehicula, non. </h3>
+                    <img src="data:image/jpeg;base64,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"> <!--cover-->
+                    <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin commodo eros vitae sem elementum aliquet. Vivamus placerat purus sed laoreet vulputate. Nullam dignissim est et odio mollis viverra. Sed pharetra nulla iaculis fringilla scelerisque. Cras quis risus sit amet dui placerat accumsan. Donec feugiat, nibh et ultrices bibendum, urna lectus dictum velit, vel rhoncus erat risus non nibh. Mauris vel felis nec quam vehicula commodo. Mauris efficitur mauris id dolor mollis tincidunt. Nam condimentum magna quis nulla commodo, gravida ultrices risus lacinia. Nulla imperdiet felis id leo vestibulum, at bibendum justo euismod. Quisque sit amet scelerisque lectus.<br>
+
+Ut sagittis gravida tellus sit amet gravida. Proin eleifend quam et fringilla feugiat. In eget sem nec arcu volutpat pretium vitae in augue. Curabitur luctus et risus id porttitor. Sed quis diam nec nibh mattis ultrices eu sed tortor. Suspendisse potenti. Pellentesque eu lectus sed quam interdum convallis nec in velit. Fusce urna diam, malesuada in ullamcorper sit amet, ultricies sed dolor. Duis et commodo magna, at cursus urna. In dictum metus ut malesuada feugiat. 
+                    </p>
+                </article>
+                <article>
+                    <h2>Titre</h2>
+                    <h3>Résumé</h3>
                     <img> <!--cover-->
                     <p>contenu</p>
                 </article>
                 <article>
-                    <h1>Titre</h1>
+                    <h2>Titre</h2>
+                    <h3>Résumé</h3>
                     <img> <!--cover-->
                     <p>contenu</p>
                 </article>
                 <article>
-                    <h1>Titre</h1>
+                    <h2>Titre</h2>
+                    <h3>Résumé</h3>
                     <img> <!--cover-->
                     <p>contenu</p>
                 </article>
                 <article>
-                    <h1>Titre</h1>
+                    <h2>Titre</h2>
+                    <h3>Résumé</h3>
                     <img> <!--cover-->
                     <p>contenu</p>
                 </article>
                 <article>
-                    <h1>Titre</h1>
-                    <img> <!--cover-->
-                    <p>contenu</p>
-                </article>
-                <article>
-                    <h1>Titre</h1>
+                    <h2>Titre</h2>
+                    <h3>Résumé</h3>
                     <img> <!--cover-->
                     <p>contenu</p>
                 </article>
@@ -65,7 +79,7 @@
 
     <footer>
         <!--Sources des images et différents prix-->
-        <p id class="f">Toutes les images présentes sur ce site sont des images officielles issues de travaux de l'Atelier K. Les tarifs sont les tarifs officiels. 
+        <p class="f">Toutes les images présentes sur ce site sont des images officielles issues de travaux de l'Atelier K. Les tarifs sont les tarifs officiels. 
             <br> Atelier K, 2012. Tous droits réservés.</p>
     </footer>
     </body>

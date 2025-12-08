@@ -1,7 +1,10 @@
-* { /* debug */
-    border: 1px solid black;
 
+body {
+
+    margin: 0;
+    padding: 0;
     background-color: #14181f;
+
     color: #e6e6e6;
 }
 
@@ -21,23 +24,48 @@
     }
 
     li {
+
+        margin: 5px 15px;
         
+        height: 100%;        
         a {
+            background-color: #14181f;
+
+            
+
             display: block;
+
             width: 100%;
             height: 100%;
-            text-align: center;
-        }
 
+            border-radius: 10px;
+            padding: 10px;
+
+            border: 3px solid #29303d;
+
+            text-decoration: none;
+            color: #e6e6e6;
+        }
         a:hover {
             background-color: #1f242e;
         }
-        a.active {
+        #active {
             background-color: #29303d;
         }
+
         p {
             display: block;
+            width: 100%;
+            height: 100%;
+
+            border-radius: 10px;
+            padding: 10px;
+            border: 3px solid #29303d;
+
+            text-decoration: none;
+            color: #e6e6e6;
         }
+        
     }
 }
 
