@@ -4,15 +4,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: #14181f;
-
-    
     color: #e6e6e6;
 }
 
+
+
 #TopBar {
+
     margin: 0;
     padding: 0;
     position: sticky;
+
+
     ul {
         list-style-type: none;
         margin: 0;

@@ -1,7 +1,7 @@
 
 bg : #29303d
 bg-dark: #1f242e
-bg-darker: #14181f
+bg-darker: #14181f -> black pour le logo
 
 info : #7ce467
 warn : #e4e467

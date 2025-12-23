@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="globals.css">
         <link rel="stylesheet" href="styles/form.css">
-        <title>Document</title>
+        <title>Atelier K | Contact</title>
     </head>
     <body>
         <nav id="TopBar">
@@ -13,29 +13,57 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="galerie.html">Galerie</a></li>
-                
-                <li><a>Atelier K - Manufacture de Tôlerie</a></li>
-
                 <li><a href="form.html" id="active">Contact</a></li>
             </ul>
         </nav>
-	<main>
-	</main>
-        <h1>Me contacter</h1>
+        <h2>
+            Avez-vous une demande spécifique ? Souhaitez-vous remplir un pré-devis ? Remplissez les formulaires ci-dessous :
+        </h2>
+        <h1>Contacter Atelier K</h1>
         <form method="post">
             <fieldset>
-                <label>Nom Prénom</label><br>
-                <input type="text" name="nomprenom" placeholder="nom prénom"><br>
-                <label>adresse email</label><br>
-                <input type="email" name="email" placeholder="nomprenom@mail.xyz"><br>
-                <label>votre message</label><br>
-                <textarea name="message" placeholder="votre message"></textarea><br>
-                <input type="submit"> <input type="reset"> <br>
+                <p><label>Nom</label><br>
+                <input type="text" name="nom" placeholder="Ex : Linus"><br>
+                <label>Prénom</label><br>
+                <input type="text" name="prenom" placeholder="Ex : Torvalds"><br></p>
+
+                <p><label>Mail</label><br>
+                <input type="email" name="email" placeholder="Ex : abc@mail.xyz"><br></p>
+
+                <p><label>Votre demande :</label><br>
+                <textarea name="message" placeholder="Ex : Prix longerons KG 59 Lowlight"></textarea><br>
+                <input type="submit"> <input type="reset"> <br></p>
             </fieldset>
         </form>
-        <h1>Demander un devis</h1>
+        <h1>Demander un pré-devis</h1>
         <form method="post">
-            
+            <fieldset>
+                <p><label>Nom :</label><br>
+                <input type="text" name="nom" placeholder="Ex : Linus"><br><br>
+                <label>Prénom :</label><br>
+                <input type="text" name="prenom" placeholder="Ex : Torvalds"><br></p>
+
+                <p><label>Mail :</label><br>
+                <input type="email" name="email" placeholder="Ex : abc@mail.xyz"><br></p>
+
+                <p><label>Type de restauration :</label><br>
+                <input type="checkbox" name="restauration" value="pieces" id="pieces">
+                <label for="pieces">Achat de pièces</label>
+                <input type="checkbox" name="restauration" value="chantier" id="chantier">
+                <label for="chantier">Travaux sur véhicule</label></p>
+
+                    
+                <p><label>Détails importants pour la fabrication / restauration :</label><br>
+                <textarea name="message"></textarea><br>
+                <input type="submit"> <input type="reset"> <br></p>
+            </fieldset>
         </form>
+
+        <footer>
+        <!--Sources des images et différents prix-->
+        <p class="f">Toutes les images présentes sur ce site sont des images officielles issues de travaux de l'Atelier K. Les tarifs renseignés sont les tarifs officiels et seront modifiés en cas de changement. 
+            <br> Atelier K, 2012. Tous droits réservés.</p>
+    </footer>
+
     </body>
 </html>
