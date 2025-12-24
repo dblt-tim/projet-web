@@ -1,6 +1,5 @@
-/* couleur noire pour la nav et le logo dans l'accueil */
 
-nav.accueil {
+nav.accueil { /* couleur noire pour la nav et le logo dans l'accueil */
     background-color: black;
 
     ul{
