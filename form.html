@@ -27,17 +27,22 @@
         <h1><strong>Contacter Atelier K</strong></h1>
         <form method="post">
             <fieldset>
-                <p><label>Nom</label><br>
-                <input type="text" name="nom" placeholder="Ex : Linus"><br>
-                <label>Prénom</label><br>
-                <input type="text" name="prenom" placeholder="Ex : Torvalds"><br></p>
+                <p><label>Nom :</label><br>
+                <input type="text" name="nom" placeholder="Ex : Linus"></p>
+                <p><label>Prénom :</label><br>
+                <input type="text" name="prenom" placeholder="Ex : Torvalds"></p>
 
-                <p><label>Mail</label><br>
+                <p><label>Mail :</label><br>
                 <input type="email" name="email" placeholder="Ex : abc@mail.xyz"><br></p>
 
-                <p><label>Votre demande :</label><br>
-                <textarea name="message" placeholder="Ex : Prix longerons KG 59 Lowlight"></textarea><br> <br>
-                <input type="submit", value="Envoyer"> <input type="reset", value="Réinitialiser"> <br></p>
+                <p>
+                    <label>Votre demande :</label><br>
+                    <textarea name="message" placeholder="Ex : Prix longerons KG 59 Lowlight"></textarea><br><br>
+                    <a href="message.html">
+                        <input type="button", value="Envoyer"/>
+                    </a>
+                    <input type="reset", value="Réinitialiser"> 
+                </p>
             </fieldset>
         </form>
         <h1>Demander un pré-devis</h1>
@@ -58,9 +63,14 @@
                 <label for="chantier">Travaux sur véhicule</label></p>
 
                     
-                <p><label>Détails importants pour la fabrication / restauration :</label><br>
-                <textarea name="message"></textarea><br> <br>
-                <input type="submit", value="Envoyer"> <input type="reset", value="Réinitialiser"> <br></p>
+                <p>
+                    <label>Détails importants pour la fabrication / restauration :</label><br>
+                    <textarea name="message"></textarea><br> <br>
+                    <a href="devis.html">
+                        <input type="button", value="Envoyer"/>
+                    </a>
+                    <input type="reset", value="Réinitialiser">
+                </p>
             </fieldset>
         </form>
 
