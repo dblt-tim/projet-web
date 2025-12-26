@@ -1,1 +1,14 @@
 /* CE FICHIER EST COMMUN AUX FICHIERS "message.html" ET "devis.html" */
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+button:hover {
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+}
