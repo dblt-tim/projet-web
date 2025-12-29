@@ -10,5 +10,6 @@
 button:hover {
     border: solid;
     border-width: 5px;
-    border-color: black;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
 }

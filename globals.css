@@ -30,6 +30,11 @@ body {
         align-items: center;
         background-color: #14181f;
 
+        #active:hover {
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+
     }
 
     ul.accueil {
@@ -43,8 +48,6 @@ body {
         justify-content: center;
         align-items: center;
         background-color: black;
-
-        
 
     }
 
