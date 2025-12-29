@@ -30,7 +30,7 @@ body {
         align-items: center;
         background-color: #14181f;
 
-        #active:hover {
+        #inactive:hover {
             transform: scale(1.1);
             transition-duration: 0.5s;
         }
