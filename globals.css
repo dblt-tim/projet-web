@@ -68,15 +68,26 @@ header {
 
 }
 
+/*.blog_img {
+
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-radius: 2px;
+    border-color: #e6e6e6;
+    margin: auto;
+
+}*/
+
 input:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
 }
 
-/*button {
-    border: solid;
-    border-color: #e6e6e6;
-}*/
 
 button:hover {
     transform: scale(1.05);
