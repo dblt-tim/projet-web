@@ -14,9 +14,16 @@ input:hover {
     transition-duration: 0.5s;
 }
 
+/*button {
+    border: solid;
+    border-color: #e6e6e6;
+}*/
+
 button:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
+    color: #e6e6e6;
+    background-color: #1f242e;
 }
 
 #TopBar {
