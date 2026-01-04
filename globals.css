@@ -68,9 +68,16 @@ header {
 
 }
 
-/*.blog_img {
+.galerie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
 
-    width: 900px;
+.galerie img {
+
+    width: 400px;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -81,7 +88,7 @@ header {
     border-color: #e6e6e6;
     margin: auto;
 
-}*/
+}
 
 input:hover {
     transform: scale(1.1);
