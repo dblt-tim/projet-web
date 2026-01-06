@@ -190,6 +190,16 @@ button:hover {
     }
 }
 
+#sideNav {
+
+    background-color: black;
+    color: #e6e6e6;
+    border: solid;
+    border-color: #e6e6e6;
+    border-radius: 5px;
+    
+}
+
 
 .karmann {
 
